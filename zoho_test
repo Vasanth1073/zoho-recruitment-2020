@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter the size\n");
+    scanf("%d",&n);
+    for(int i=n;i>0;i--){
+        for(int j=n;j>0;j--){
+            if(j<=i){
+                printf("%d ",i);
+            }else{
+                printf("%d ",j);
+            }
+            
+        }
+        printf("\n");
+    }
+}
+
